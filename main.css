@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    font-family:'Poppins', sans-serif;
+}
+body{
+    box-sizing: border-box;
+    background-color: #242058;
+
+}
+
+.header{
+    width: 100%;
+    height: 150px;
+    background-color:#503b9b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.sub{
+    font-size: 26px;
+    font-weight: 700;
+    max-width: 250px;
+    word-break: break-word;
+    text-align: right;
+}
+.sub-name{
+    font-size: 18px;
+}
+.left-head{
+    display: flex;
+}
+.logo{
+    height: 110px;
+    width: 110px;
+    margin-left: 10px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.img{
+    width: 100%;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #242058;
+}
+.containers{
+    margin: 30px;
+    width: 500px;
+    height: 180px;
+    background-color:#7878b9;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius:20px;
+    transform: scale(0.9);
+    transition: 0.3s;
+}
+.containers:hover{
+    transform: scale(1.1);
+    background-color:#503b9b;
+}
+
+.cont-logo{
+    margin-left: 20px;
+    width:100px;
+    height:100px;
+}
+.cont-img{
+    width: 100%;
+    border-radius: 8px;
+}
+.link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    font-size: 60px;
+    margin-right: 40px;
+}
+p{
+    color:white;
+}
+.zalo{
+    margin-left: 60px;
+}
+.tiktok{
+    margin-left: 60px;
+}
+h3{
+    margin:16px;
+}

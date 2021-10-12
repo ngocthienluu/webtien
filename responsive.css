@@ -1,0 +1,38 @@
+/* Tablet */
+@media (max-width: 63.9375em) and (min-width: 46.3125em){
+ 
+
+}
+
+
+
+@media (max-width: 63.9375em) {
+    
+
+    
+}
+
+
+
+
+/*Phone*/
+@media ( max-width: 46.1875em) {
+ .contact{
+     display:none;
+ }
+ h3{
+     display: none;
+ }
+ .containers{
+    max-width:360px;
+ }
+ .logo {
+    height: 95px;
+    width: 95px;
+ }
+ .cont-logo{
+    width:120px;
+    height:120px;
+    transform: translateX(55%);
+ }
+}

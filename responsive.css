@@ -12,7 +12,7 @@
 
 
 /*Phone*/
-@media ( max-width: 399px) { /*46.1875em*/
+@media   (min-width:362px) and ( max-width: 399px) { /*46.1875em*/
  .contact{
      display:none;
  }
@@ -51,4 +51,29 @@
    .cont-logo{
       transform: translateX(70%);
    }
+}
+
+@media (max-width:361px) {
+   .contact{
+      display:none;
+  }
+  h3{
+      display: none;
+  }
+  .containers{
+     max-width:360px;
+  }
+  .logo {
+     height: 95px;
+     width: 95px;
+     border-radius: 0;
+  }
+  .cont-logo{
+     width:120px;
+     height:120px;
+     transform: translateX(50%);
+  }
+  .logo img{
+     border-radius: 50%;
+  }
 }

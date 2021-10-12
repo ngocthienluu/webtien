@@ -18,7 +18,7 @@
 
 
 /*Phone*/
-@media ( max-width: 46.1875em) {
+@media ( max-width: 24.9375em) {
  .contact{
      display:none;
  }

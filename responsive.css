@@ -1,10 +1,4 @@
 
-@media (max-width: 414px) and (min-width: 400px){
-   .cont-logo{
-      transform: translateX(70%);
-   }
-
-}
 
 
 
@@ -18,7 +12,7 @@
 
 
 /*Phone*/
-@media ( max-width: 24.9375em) {
+@media ( max-width: 399px) { /*46.1875em*/
  .contact{
      display:none;
  }
@@ -37,4 +31,24 @@
     height:120px;
     transform: translateX(50%);
  }
+}
+
+@media (min-width: 400px) and (max-width: 420px){
+   
+   .contact{
+      display:none;
+  }
+  h3{
+      display: none;
+  }
+  .containers{
+     max-width:300px;
+  }
+  .logo {
+     height: 95px;
+     width: 95px;
+  }
+   .cont-logo{
+      transform: translateX(70%);
+   }
 }

@@ -1,6 +1,8 @@
-/* Tablet */
-@media (max-width: 63.9375em) and (min-width: 46.3125em){
- 
+
+@media (max-width: 414px) and (min-width: 400px){
+   .cont-logo{
+      transform: translateX(70%);
+   }
 
 }
 
